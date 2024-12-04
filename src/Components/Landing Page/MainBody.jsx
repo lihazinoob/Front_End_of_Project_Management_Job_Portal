@@ -6,7 +6,7 @@ const MainBody = () => {
     <>
       <div className='bg-backgroundcolor w-screen h-screen'>
         <TopMenuBar />
-        <div className='mt-40 ml-24'>
+        <div className='mt-40 ml-24 mr-14 '>
           <AboutSection />
         </div>
       </div>
