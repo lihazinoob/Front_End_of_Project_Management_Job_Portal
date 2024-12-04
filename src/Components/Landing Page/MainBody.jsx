@@ -1,12 +1,16 @@
 import React from 'react'
 import TopMenuBar from './TopMenuBar'
+import AboutSection from './AboutSection'
 const MainBody = () => {
   return (
     <>
       <div className='bg-backgroundcolor w-screen h-screen'>
         <TopMenuBar />
-
+        <div className='mt-40 ml-24'>
+          <AboutSection />
+        </div>
       </div>
+
     </>
   )
 }

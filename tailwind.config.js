@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors:{
+        buttoncolor: "#ef8900",
+      },
       backgroundImage: {
         backgroundcolor: "linear-gradient(to right, rgba(49,81,30) 0%, rgba(26,26,25) 30%)",
         topmenubarbgcolor:"linear-gradient(to right, rgba(26,26,25) 0%, rgba(49,81,30) 80% )",
