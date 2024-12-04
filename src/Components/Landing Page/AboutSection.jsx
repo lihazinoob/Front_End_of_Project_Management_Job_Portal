@@ -2,7 +2,7 @@ import React from "react";
 import ProjectManagemntAboutImage from "../../assets/Images/ProjectManagemntAboutImage.jpg";
 const AboutSection = () => {
   return (
-    <div className="text-white grid grid-cols-2  items-center gap-40 leading-10">
+    <div className="text-white grid grid-cols-2  items-center gap-40 leading-10 animate-fadeIn">
       <div className="flex flex-col">
         <div className="text-6xl tracking-widest ">Project Management</div>
         <div className="text-5xl  font-bold tracking-widest flex justify-center mt-10 text-buttoncolor">
