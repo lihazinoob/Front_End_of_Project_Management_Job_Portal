@@ -18,7 +18,7 @@ const MainBody = () => {
           <InfoCard />
         </div>
         <hr className='bg-buttoncolor w-full h-0.5 border-none'/>
-        <div className='mt-40 ml-48 mr-14 pb-20'>
+        <div className='mt-40 ml-14 mr-14 pb-20'>
           <JobExploreSection/>
         </div>
       </div>

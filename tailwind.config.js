@@ -19,7 +19,7 @@ module.exports = {
       backgroundImage: {
         backgroundcolor: "linear-gradient(to right, rgba(49,81,30) 0%, rgba(26,26,25) 30%)",
         topmenubarbgcolor:"linear-gradient(to right, rgba(26,26,25) 0%, rgba(49,81,30) 80% )",
-        cardbgcolor:"linear-gradient(to left,rgbaa(167,121,121) 0%, rgba(85,57,57) 30%)",
+        cardbgcolor:"linear-gradient(to left,rgba(60,42,33) 0%, rgba(213,206,163) 100%)",
       },
     },
   },
