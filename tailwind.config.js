@@ -17,7 +17,7 @@ module.exports = {
         cardcolor:"#553939",
       },
       backgroundImage: {
-        backgroundcolor: "linear-gradient(to right, rgba(49,81,30) 0%, rgba(26,26,25) 30%)",
+        backgroundcolor: "linear-gradient(to bottom right, rgba(255,255,255) 0%, rgba(	82, 109, 130) 30%)",
         topmenubarbgcolor:"linear-gradient(to right, rgba(26,26,25) 0%, rgba(49,81,30) 80% )",
         cardbgcolor:"linear-gradient(to left,rgba(60,42,33) 0%, rgba(213,206,163) 100%)",
       },

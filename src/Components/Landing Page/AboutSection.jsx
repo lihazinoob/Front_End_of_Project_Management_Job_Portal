@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectManagemntAboutImage from "../../assets/Images/ProjectManagemntAboutImage.jpg";
 const AboutSection = () => {
+  // const aboutref = useRef(null);
+  // const isVisible = useScrollAnimation(aboutref);
   return (
     <div className="text-white grid grid-cols-2  items-center gap-40 leading-10 animate-fadeIn">
       <div className="flex flex-col">

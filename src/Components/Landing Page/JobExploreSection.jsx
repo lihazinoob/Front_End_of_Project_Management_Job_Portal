@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
-const JobExploreSection = () => {
+import useScrollAnimation from "../../CustomHooks/useScrollAnimation";
+const TalentExploreSection = () => {
+
+  const aboutRef = useRef(null);
+  const isVisible = useScrollAnimation(aboutRef);
   const settings = {
     dots: true, // Show navigation dots
     infinite: true, // Infinite scrolling
@@ -38,7 +42,12 @@ const JobExploreSection = () => {
     { title: "Card 5", description: "This is card 5." },
   ];
   return (
-    <div className="text-white">
+    <div
+    ref={aboutRef} 
+    className={`text-white ${isVisible ? "animate-fadeIn" : "opacity-0"}`}>
+      <div className="flex justify-center mb-10">
+        <h1 className="text-4xl tracking-widest">Find Best Talents from Across the World</h1>
+      </div>
       <Slider {...settings}>
         {cards.map((card, index) => (
           <div key={index} className="p-4">
@@ -74,4 +83,4 @@ const JobExploreSection = () => {
   );
 };
 
-export default JobExploreSection;
+export default TalentExploreSection;

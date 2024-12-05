@@ -5,7 +5,7 @@ import './index.css'
 import MainBody from './Components/Landing Page/MainBody.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
+    
     <MainBody />
   </StrictMode>,
 )

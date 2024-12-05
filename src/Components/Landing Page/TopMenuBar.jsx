@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopMenuBar = () => {
   return (
-    <div className='bg-topmenubarbgcolor rounded-sm shadow-lg shadow-black'>
+    <div className='bg-topmenubarbgcolor rounded-sm shadow-lg shadow-black fixed top-0 left-0 w-full z-10'>
       <div className='text-white p-4 h-18 flex flex-row items-end  gap-64 ml-16'>
         <div className='font-bold tracking-widest text-2xl'>
           ProJob
